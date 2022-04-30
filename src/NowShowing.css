@@ -1,0 +1,18 @@
+.nowShowing{
+    color:white;
+    padding: 20px;
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.nowShowing h2{
+    margin-left: 100px;
+}
+.nowShowing_movies{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+
+}
