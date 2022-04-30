@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cinematicketbooking/static/css/main.bdebe784.css",
-    "main.js": "/cinematicketbooking/static/js/main.a635b09b.js",
+    "main.css": "/cinematicketbooking/static/css/main.9b1b5787.css",
+    "main.js": "/cinematicketbooking/static/js/main.42b2670b.js",
     "static/js/787.cc147bf8.chunk.js": "/cinematicketbooking/static/js/787.cc147bf8.chunk.js",
     "index.html": "/cinematicketbooking/index.html",
-    "main.bdebe784.css.map": "/cinematicketbooking/static/css/main.bdebe784.css.map",
-    "main.a635b09b.js.map": "/cinematicketbooking/static/js/main.a635b09b.js.map",
+    "main.9b1b5787.css.map": "/cinematicketbooking/static/css/main.9b1b5787.css.map",
+    "main.42b2670b.js.map": "/cinematicketbooking/static/js/main.42b2670b.js.map",
     "787.cc147bf8.chunk.js.map": "/cinematicketbooking/static/js/787.cc147bf8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdebe784.css",
-    "static/js/main.a635b09b.js"
+    "static/css/main.9b1b5787.css",
+    "static/js/main.42b2670b.js"
   ]
 }
