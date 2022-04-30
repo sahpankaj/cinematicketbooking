@@ -5,7 +5,7 @@ import Book from './Book';
 import Theatre from './Theatre';
 import Confirmation from './Confirmation';
 import Final from './Final';
-import CounterDown from './CounterDown'
+
 function App() {
   return (
     <div className="app">
