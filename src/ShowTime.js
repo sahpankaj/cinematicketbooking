@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import DatePicker from "react-horizontal-datepicker";
 import { useNavigate, useParams } from "react-router-dom";
 import "./ShowTime.css";
-import moment from "moment";
 function ShowTime() {
   const {image} = useParams();
   const {id} = useParams();
@@ -40,9 +38,9 @@ function ShowTime() {
     setMall("INOX: Capital Mall, Bhopal");
   };
   console.log("you chose this time: ❤️❤️",time);
-   const selectedDay = (val) => {
-     console.log(val);
-   };
+  //  const selectedDay = (val) => {
+  //    console.log(val);
+  //  };
    const today = new Date();
 
    // to return the date number(1-31) for the specified date
@@ -68,9 +66,9 @@ function ShowTime() {
                   11.40 AM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
               <div class="showtime_dropdown">
@@ -78,9 +76,9 @@ function ShowTime() {
                   1.40 PM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
             </div>
@@ -96,9 +94,9 @@ function ShowTime() {
                   10.40 AM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
               <div class="showtime_dropdown">
@@ -106,9 +104,9 @@ function ShowTime() {
                   1.40 PM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
               <div class="showtime_dropdown">
@@ -116,9 +114,9 @@ function ShowTime() {
                   4.40 AM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
             </div>
@@ -134,9 +132,9 @@ function ShowTime() {
                   11.40 AM
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
               <div class="showtime_dropdown">
@@ -144,9 +142,9 @@ function ShowTime() {
                   1.40 PM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
               <div class="showtime_dropdown">
@@ -154,9 +152,9 @@ function ShowTime() {
                   4.40 PM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
             </div>
@@ -174,9 +172,9 @@ function ShowTime() {
                   11.40 AM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
               <div class="showtime_dropdown">
@@ -184,9 +182,9 @@ function ShowTime() {
                   1.40 PM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
               <div class="showtime_dropdown">
@@ -194,9 +192,9 @@ function ShowTime() {
                   3.40 PM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
               <div class="showtime_dropdown">
@@ -204,9 +202,9 @@ function ShowTime() {
                   6.40 PM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
             </div>
@@ -222,9 +220,9 @@ function ShowTime() {
                   10.40 PM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
               <div class="showtime_dropdown">
@@ -232,9 +230,9 @@ function ShowTime() {
                   1.40 PM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
               <div class="showtime_dropdown">
@@ -242,9 +240,9 @@ function ShowTime() {
                   5.30 PM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
             </div>
@@ -260,9 +258,9 @@ function ShowTime() {
                   1.40 PM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
               <div class="showtime_dropdown">
@@ -270,9 +268,9 @@ function ShowTime() {
                   1.40 PM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
               <div class="showtime_dropdown">
@@ -280,9 +278,9 @@ function ShowTime() {
                   4.40 PM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
               <div class="showtime_dropdown">
@@ -290,9 +288,9 @@ function ShowTime() {
                   6.20 PM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
               <div class="showtime_dropdown">
@@ -300,9 +298,9 @@ function ShowTime() {
                   10.20 PM{" "}
                 </h4>
                 <div class="dropdown-content">
-                  <a href="#">₹264 classic</a>
-                  <a href="#">₹264 prime</a>
-                  <a href="#">₹478 recliner</a>
+                  <a href="#classic">₹264 classic</a>
+                  <a href="#prime">₹264 prime</a>
+                  <a href="#recliner">₹478 recliner</a>
                 </div>
               </div>
             </div>

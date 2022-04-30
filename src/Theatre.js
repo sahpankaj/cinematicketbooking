@@ -5,14 +5,13 @@ import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import "./Theatre.css";
 function Theatre() {
   const [selected, setSelected] = useState([]);
-  const { image, mall,name } = useParams();
+  const { image, mall, name } = useParams();
   const price = 290;
   const totalPrice = price * selected.length;
-const navigate = useNavigate();
-  console.log( selected.length);
+  const navigate = useNavigate();
+  console.log(selected.length);
   return (
     <div className="theatre">
-   
       <div
         className="theatre_image"
         style={{

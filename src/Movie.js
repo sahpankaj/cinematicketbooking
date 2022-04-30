@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import "./Movie.css";
 function Movie({ name, image, date, language, overview, img,key }) {
   const datee = new Date(date); // 2009-11-10
