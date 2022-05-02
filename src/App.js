@@ -9,7 +9,8 @@ import Final from './Final';
 function App() {
   return (
     <div className="app">
-      <Router>
+    ReactDOM.render((
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Body />} />
           <Route
@@ -24,6 +25,8 @@ function App() {
           <Route path="/Final/:id/:image/:selected/:total/:name" element={<Final />} />
         </Routes>
       </Router>
+    ), ...)
+
     </div>
   );
 }
